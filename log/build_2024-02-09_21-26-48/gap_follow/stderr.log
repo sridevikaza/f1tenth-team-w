@@ -1,3 +1,0 @@
-CMake Error: The source directory "/sim_ws/src/f1tenth_lab4/gap_follow" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.
-make: *** [Makefile:266: cmake_check_build_system] Error 1

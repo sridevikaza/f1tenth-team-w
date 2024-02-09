@@ -1,2 +1,0 @@
-[0.413s] Invoking command in '/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
-[0.583s] [100%] Built target wall_follow_node

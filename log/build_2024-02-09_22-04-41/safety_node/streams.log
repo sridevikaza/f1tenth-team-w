@@ -1,5 +1,0 @@
-[0.413s] Invoking command in '/sim_ws/build/safety_node': /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4
-[0.553s] CMake Error: The source directory "/sim_ws/src/safety_node" does not exist.
-[0.554s] Specify --help for usage, or press the help button on the CMake GUI.
-[0.554s] make: *** [Makefile:266: cmake_check_build_system] Error 1
-[0.572s] Invoked command in '/sim_ws/build/safety_node' returned '2': /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4

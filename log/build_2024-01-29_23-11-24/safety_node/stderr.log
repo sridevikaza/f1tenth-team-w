@@ -1,4 +1,0 @@
-[01m[K/sim_ws/src/safety_node/src/safety_node.cpp:[m[K In member function ‘[01m[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
-[01m[K/sim_ws/src/safety_node/src/safety_node.cpp:66:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
-   66 |         for (int i = 0; [01;35m[Ki < sizeof(ranges) / sizeof(float)[m[K; i++) {
-      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

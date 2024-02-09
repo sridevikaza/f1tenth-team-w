@@ -1,2 +1,0 @@
-Invoking command in '/sim_ws/build/safety_node': /usr/bin/cmake /sim_ws/src/f1tenth_lab2/safety_node -DCMAKE_INSTALL_PREFIX=/sim_ws/install/safety_node
-Invoked command in '/sim_ws/build/safety_node' returned '1': /usr/bin/cmake /sim_ws/src/f1tenth_lab2/safety_node -DCMAKE_INSTALL_PREFIX=/sim_ws/install/safety_node
