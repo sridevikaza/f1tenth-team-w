@@ -1,0 +1,14 @@
+[1.164s] Invoking command in '/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4
+[1.915s] [100%] Built target safety_node
+[2.032s] Invoked command in '/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4
+[2.587s] Invoking command in '/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/safety_node
+[2.665s] -- Install configuration: ""
+[2.669s] -- Up-to-date: /sim_ws/install/safety_node/lib/safety_node/safety_node
+[2.673s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/pythonpath.sh
+[2.674s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv
+[2.677s] CMake Error at cmake_install.cmake:69 (file):
+[2.678s]   file INSTALL cannot find "/sim_ws/src/safety_node/safety_node": No such
+[2.678s]   file or directory.
+[2.678s] 
+[2.679s] 
+[2.687s] Invoked command in '/sim_ws/build/safety_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/safety_node

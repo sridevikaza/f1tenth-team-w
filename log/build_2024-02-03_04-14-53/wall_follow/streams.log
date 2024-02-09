@@ -1,0 +1,31 @@
+[0.839s] Invoking command in '/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
+[1.308s] [35m[1mScanning dependencies of target wall_follow_node[0m
+[1.515s] [ 50%] [32mBuilding CXX object CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o[0m
+[6.312s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In constructor ‘[01m[KWallFollow::WallFollow()[m[K’:
+[6.312s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:17:117:[m[K [01;31m[Kerror: [m[K‘[01m[KSafety[m[K’ has not been declared
+[6.312s]    17 | >create_subscription<sensor_msgs::msg::LaserScan>(lidarscan_topic, 10, std::bind(&[01;31m[KSafety[m[K::scan_callback, this, _1));
+[6.313s]       |                                                                                   [01;31m[K^~~~~~[m[K
+[6.313s] 
+[6.319s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::get_range(float*, double, double, double)[m[K’:
+[6.319s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:69:54:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (float*) / sizeof (float)[m[K’ does not compute the number of array elements [[01;35m[K-Wsizeof-pointer-div[m[K]
+[6.319s]    69 |         if (index >= 0 && index < [01;35m[Ksizeof(range_data) / sizeof(range_data[0])[m[K)
+[6.320s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.320s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:48:29:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+[6.320s]    48 |     double get_range([01;36m[Kfloat* range_data[m[K, double angle, double angle_min, double angle_increment)
+[6.320s]       |                      [01;36m[K~~~~~~~^~~~~~~~~~[m[K
+[6.321s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:69:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[6.321s]    69 |         if (index >= 0 && [01;35m[Kindex < sizeof(range_data) / sizeof(range_data[0])[m[K)
+[6.321s]       |                           [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.347s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kvoid WallFollow::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[6.348s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:167:55:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst float*[m[K’ to ‘[01m[Kfloat*[m[K’ [[01;31m[K-fpermissive[m[K]
+[6.348s]   167 |         double error = get_error([01;31m[Kscan_msg->ranges.data()[m[K, scan_msg->angle_min, scan_msg->angle_increment);
+[6.348s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.349s]       |                                                       [01;31m[K|[m[K
+[6.349s]       |                                                       [01;31m[Kconst float*[m[K
+[6.349s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:84:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble WallFollow::get_error(float*, double, double)[m[K’
+[6.349s]    84 |     double get_error([01;36m[Kfloat* range_data[m[K, double angle_min, double angle_increment)
+[6.350s]       |                      [01;36m[K~~~~~~~^~~~~~~~~~[m[K
+[8.850s] make[2]: *** [CMakeFiles/wall_follow_node.dir/build.make:63: CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o] Error 1
+[8.861s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wall_follow_node.dir/all] Error 2
+[8.861s] make: *** [Makefile:141: all] Error 2
+[8.862s] Invoked command in '/sim_ws/build/wall_follow' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4

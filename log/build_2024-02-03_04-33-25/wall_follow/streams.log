@@ -1,0 +1,61 @@
+[0.735s] Invoking command in '/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
+[1.059s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.741s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.034s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.932s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.960s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.561s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[3.562s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.675s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.998s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[4.152s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.520s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.829s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.834s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.835s] -- Configured cppcheck include dirs: /sim_ws/src/wall_follow/include
+[4.836s] -- Configured cppcheck exclude dirs and/or files: 
+[4.839s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.839s] -- Configured cpplint exclude dirs and/or files: 
+[4.842s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.843s] -- Added test 'lint_cmake' to check CMake code style
+[4.847s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.850s] -- Added test 'uncrustify' to check C / C++ code style
+[4.851s] -- Configured uncrustify additional arguments: 
+[4.856s] -- Added test 'xmllint' to check XML markup files
+[4.874s] -- Configuring done
+[4.961s] -- Generating done
+[4.969s] -- Build files have been written to: /sim_ws/build/wall_follow
+[5.068s] [35m[1mScanning dependencies of target wall_follow_node[0m
+[5.205s] [ 50%] [32mBuilding CXX object CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o[0m
+[27.287s] [100%] [32m[1mLinking CXX executable wall_follow_node[0m
+[28.674s] [100%] Built target wall_follow_node
+[28.753s] Invoked command in '/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
+[28.949s] Invoking command in '/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/wall_follow
+[28.960s] -- Install configuration: ""
+[28.962s] -- Installing: /sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node
+[29.159s] -- Set runtime path of "/sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node" to ""
+[29.180s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.sh
+[29.182s] -- Installing: /sim_ws/install/wall_follow/share/wall_follow/environment/pythonpath.dsv
+[29.192s] -- Up-to-date: /sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow
+[29.192s] -- Up-to-date: /sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow/__init__.py
+[29.345s] Listing '/sim_ws/install/wall_follow/lib/python3.8/site-packages/wall_follow'...
+[29.354s] -- Up-to-date: /sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node.py
+[29.356s] -- Up-to-date: /sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[29.356s] -- Installing: /sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[29.358s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[29.358s] -- Installing: /sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[29.360s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[29.361s] -- Installing: /sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[29.361s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[29.363s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[29.364s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[29.368s] -- Installing: /sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[29.369s] -- Installing: /sim_ws/install/wall_follow/share/wall_follow/package.dsv
+[29.370s] -- Up-to-date: /sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[29.370s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[29.371s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[29.371s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/package.xml
+[29.388s] Invoked command in '/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/wall_follow

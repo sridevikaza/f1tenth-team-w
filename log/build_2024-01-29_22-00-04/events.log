@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.007021] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.007710] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.008005] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.062335] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[0.116502] (-) TimerEvent: {}
+[0.218330] (-) TimerEvent: {}
+[0.318913] (-) TimerEvent: {}
+[0.419434] (-) TimerEvent: {}
+[0.520784] (-) TimerEvent: {}
+[0.639481] (-) TimerEvent: {}
+[0.740517] (-) TimerEvent: {}
+[0.806557] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'cmake'}
+[0.806756] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'build'}
+[0.806819] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/build/safety_node', '--', '-j4', '-l4'], 'cwd': '/sim_ws/build/safety_node', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,20,0'), ('HOSTNAME', '1d826d35a00c'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'novnc:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/build/safety_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.840750] (-) TimerEvent: {}
+[0.942763] (-) TimerEvent: {}
+[1.021845] (safety_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety_node\x1b[0m\n'}
+[1.042894] (-) TimerEvent: {}
+[1.119966] (safety_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o\x1b[0m\n'}
+[1.144392] (-) TimerEvent: {}
+[1.247210] (-) TimerEvent: {}
+[1.349086] (-) TimerEvent: {}
+[1.450183] (-) TimerEvent: {}
+[1.553231] (-) TimerEvent: {}
+[1.654419] (-) TimerEvent: {}
+[1.756842] (-) TimerEvent: {}
+[1.860781] (-) TimerEvent: {}
+[1.963261] (-) TimerEvent: {}
+[2.065528] (-) TimerEvent: {}
+[2.166790] (-) TimerEvent: {}
+[2.268074] (-) TimerEvent: {}
+[2.371429] (-) TimerEvent: {}
+[2.417423] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/sim_ws/build/f1tenth_gym_ros/install.log', '--install-scripts', '$base/lib/f1tenth_gym_ros', '--single-version-externally-managed'], 'cwd': '/sim_ws/src/f1tenth_gym_ros', 'env': {'TMUX': '/tmp//tmux-0/default,20,0', 'HOSTNAME': '1d826d35a00c', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/sim_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/sim_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'novnc:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'PWD': '/sim_ws/build/f1tenth_gym_ros', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/sim_ws/build/f1tenth_gym_ros/prefix_override:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TMUX_PANE': '%1'}, 'shell': False}
+[2.471842] (-) TimerEvent: {}
+[2.572435] (-) TimerEvent: {}
+[2.672945] (-) TimerEvent: {}
+[2.774401] (-) TimerEvent: {}
+[2.876887] (-) TimerEvent: {}
+[2.977697] (-) TimerEvent: {}
+[2.982830] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.987446] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[2.989442] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[2.989849] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[2.990257] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[2.993047] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[3.077928] (-) TimerEvent: {}
+[3.178641] (-) TimerEvent: {}
+[3.190488] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[3.195678] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[3.196261] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[3.197598] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[3.200041] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[3.203277] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[3.212354] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[3.221003] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.230378] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.238592] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[3.248463] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[3.278773] (-) TimerEvent: {}
+[3.300218] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[3.321619] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[3.381884] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[3.382516] (-) TimerEvent: {}
+[3.432290] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[3.482764] (-) TimerEvent: {}
+[3.586879] (-) TimerEvent: {}
+[3.688999] (-) TimerEvent: {}
+[3.789709] (-) TimerEvent: {}
+[3.895676] (-) TimerEvent: {}
+[3.999463] (-) TimerEvent: {}
+[4.106359] (-) TimerEvent: {}
+[4.212105] (-) TimerEvent: {}
+[4.315205] (-) TimerEvent: {}
+[4.417191] (-) TimerEvent: {}
+[4.518435] (-) TimerEvent: {}
+[4.619631] (-) TimerEvent: {}
+[4.723385] (-) TimerEvent: {}
+[4.825722] (-) TimerEvent: {}
+[4.927289] (-) TimerEvent: {}
+[5.030093] (-) TimerEvent: {}
+[5.131942] (-) TimerEvent: {}
+[5.233968] (-) TimerEvent: {}
+[5.335681] (-) TimerEvent: {}
+[5.442904] (-) TimerEvent: {}
+[5.545617] (-) TimerEvent: {}
+[5.650975] (-) TimerEvent: {}
+[5.756213] (-) TimerEvent: {}
+[5.866678] (-) TimerEvent: {}
+[5.991905] (-) TimerEvent: {}
+[6.092962] (-) TimerEvent: {}
+[6.202417] (-) TimerEvent: {}
+[6.306694] (-) TimerEvent: {}
+[6.407826] (-) TimerEvent: {}
+[6.508597] (-) TimerEvent: {}
+[6.609211] (-) TimerEvent: {}
+[6.710242] (-) TimerEvent: {}
+[6.811526] (-) TimerEvent: {}
+[6.912223] (-) TimerEvent: {}
+[7.012838] (-) TimerEvent: {}
+[7.056777] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:60:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.057288] (safety_node) StderrLine: {'line': b'   60 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[7.057536] (safety_node) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.058096] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:60:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.059021] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:60:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.059563] (safety_node) StderrLine: {'line': b'   60 |     rclcpp::Publisher<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[7.060418] (safety_node) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.060759] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:60:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.061047] (safety_node) StderrLine: {'line': b'   60 |     rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[7.061672] (safety_node) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.062037] (safety_node) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.069391] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:60:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.069686] (safety_node) StderrLine: {'line': b'   60 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[7.070408] (safety_node) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.071122] (safety_node) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[7.071299] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSafety::Safety()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.071462] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:29:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.071624] (safety_node) StderrLine: {'line': b'   29 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<ackermann_msgs::msg::ackermann_drive_stamped>("/drive", 10);\n'}
+[7.071782] (safety_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.071939] (safety_node) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[7.072092] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:29:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kackermann_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.072333] (safety_node) StderrLine: {'line': b'   29 |         publisher_ = this->create_publisher<ackermann_msgs::msg::\x1b[01;31m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K>("/drive", 10);\n'}
+[7.077404] (safety_node) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.077528] (safety_node) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\n'}
+[7.077641] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:29:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kackermann_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.077912] (safety_node) StderrLine: {'line': b'   29 |         publisher_ = this->create_publisher<ackermann_msgs::msg::\x1b[01;31m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K>("/drive", 10);\n'}
+[7.078249] (safety_node) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.078372] (safety_node) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\n'}
+[7.078481] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:29:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSafety::create_publisher<<expression error> >(const char [7], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.078598] (safety_node) StderrLine: {'line': b'   29 | ate_publisher<ackermann_msgs::msg::ackermann_drive_stamped>("/drive", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.078705] (safety_node) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.078810] (safety_node) StderrLine: {'line': b'\n'}
+[7.078914] (safety_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.079050] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.079170] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.079277] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.079390] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.079502] (safety_node) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[7.079607] (safety_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.079711] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.079816] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:29:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.079922] (safety_node) StderrLine: {'line': b'   29 | ate_publisher<ackermann_msgs::msg::ackermann_drive_stamped>("/drive", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.080027] (safety_node) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.080131] (safety_node) StderrLine: {'line': b'\n'}
+[7.080238] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:30:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.080345] (safety_node) StderrLine: {'line': b'   30 |         timer_ = this->create_wall_timer(\x1b[01;31m\x1b[K500ms\x1b[m\x1b[K, std::bind(&MinimalPublisher::timer_callback, this));\n'}
+[7.080451] (safety_node) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.080556] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:30:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.080662] (safety_node) StderrLine: {'line': b'   30 |         timer_ = this->create_wall_timer(500ms, std::bind(&\x1b[01;31m\x1b[KMinimalPublisher\x1b[m\x1b[K::timer_callback, this));\n'}
+[7.080774] (safety_node) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.080880] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:32:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.080988] (safety_node) StderrLine: {'line': b'   32 |         \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<nav_msgs::msg::Odometry>("/ego_racecar/odom", 10, std::bind(&MinimalSubscriber::drive_callback, this, _1));\n'}
+[7.081095] (safety_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.081201] (safety_node) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[7.081305] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:32:112:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.090942] (safety_node) StderrLine: {'line': b'   32 | bscription<nav_msgs::msg::Odometry>("/ego_racecar/odom", 10, std::bind(&\x1b[01;31m\x1b[KMinimalSubscriber\x1b[m\x1b[K::drive_callback, this, _1));\n'}
+[7.091252] (safety_node) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.091429] (safety_node) StderrLine: {'line': b'\n'}
+[7.093378] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:32:153:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.093680] (safety_node) StderrLine: {'line': b'   32 | _racecar/odom", 10, std::bind(&MinimalSubscriber::drive_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[7.093995] (safety_node) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.094199] (safety_node) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[7.094387] (safety_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/context.hpp:19\x1b[m\x1b[K,\n'}
+[7.094606] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18\x1b[m\x1b[K,\n'}
+[7.094875] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:32\x1b[m\x1b[K,\n'}
+[7.095079] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[7.095757] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.095993] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.096167] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.096439] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:211:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.096731] (safety_node) StderrLine: {'line': b'  211 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[7.096899] (safety_node) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.097105] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:33:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.097290] (safety_node) StderrLine: {'line': b'   33 | reate_subscription<sensor_msgs::msg::LaserScan>("/scan", 10, std::bind(&\x1b[01;31m\x1b[KMinimalSubscriber\x1b[m\x1b[K::scan_callback, this, _1));\n'}
+[7.097448] (safety_node) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.104773] (safety_node) StderrLine: {'line': b'\n'}
+[7.105006] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::drive_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.105195] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:40:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.105360] (safety_node) StderrLine: {'line': b'   40 |     void drive_callback(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::ConstSharedPtr msg\x1b[m\x1b[K)\n'}
+[7.105516] (safety_node) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.105671] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.105829] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:45:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.105986] (safety_node) StderrLine: {'line': b'   45 |     void scan_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg\x1b[m\x1b[K)\n'}
+[7.109049] (safety_node) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.113109] (-) TimerEvent: {}
+[7.214627] (-) TimerEvent: {}
+[7.337509] (-) TimerEvent: {}
+[7.438650] (-) TimerEvent: {}
+[7.540332] (-) TimerEvent: {}
+[7.640996] (-) TimerEvent: {}
+[7.741923] (-) TimerEvent: {}
+[7.842690] (-) TimerEvent: {}
+[7.943651] (-) TimerEvent: {}
+[8.049599] (-) TimerEvent: {}
+[8.153834] (-) TimerEvent: {}
+[8.255492] (-) TimerEvent: {}
+[8.357062] (-) TimerEvent: {}
+[8.435049] (safety_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/safety_node.dir/build.make:63: CMakeFiles/safety_node.dir/src/safety_node.cpp.o] Error 1\n'}
+[8.436623] (safety_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/safety_node.dir/all] Error 2\n'}
+[8.436864] (safety_node) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.445116] (safety_node) CommandEnded: {'returncode': 2}
+[8.457323] (-) TimerEvent: {}
+[8.560298] (-) TimerEvent: {}
+[8.654467] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 2}
+[8.660627] (-) TimerEvent: {}
+[8.671550] (-) EventReactorShutdown: {}

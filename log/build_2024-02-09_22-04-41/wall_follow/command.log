@@ -1,0 +1,2 @@
+Invoking command in '/sim_ws/build/wall_follow': /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
+Invoked command in '/sim_ws/build/wall_follow' returned '2': /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4

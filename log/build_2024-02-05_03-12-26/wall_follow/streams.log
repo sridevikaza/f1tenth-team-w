@@ -1,0 +1,32 @@
+[1.030s] Invoking command in '/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
+[1.456s] [35m[1mScanning dependencies of target wall_follow_node[0m
+[1.873s] [ 50%] [32mBuilding CXX object CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o[0m
+[7.905s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+[7.906s]    42 |     [01;31m[Kros[m[K::Time t;
+[7.906s]       |     [01;31m[K^~~[m[K
+[7.906s]       |     [32m[Kcos[m[K
+[7.907s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+[7.908s]    43 |     [01;31m[Kros[m[K::Time prev_t;
+[7.908s]       |     [01;31m[K^~~[m[K
+[7.908s]       |     [32m[Kcos[m[K
+[8.002s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::get_error(const float*, double, double)[m[K’:
+[8.003s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:105:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[8.004s]   105 |         [01;31m[Kt[m[K = ros::Time::now();
+[8.006s]       |         [01;31m[K^[m[K
+[8.007s]       |         [32m[Ktm[m[K
+[8.008s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:105:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[8.009s]   105 |         t = [01;31m[Kros[m[K::Time::now();
+[8.010s]       |             [01;31m[K^~~[m[K
+[8.015s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kvoid WallFollow::pid_control(double)[m[K’:
+[8.016s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:136:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_t[m[K’ was not declared in this scope; did you mean ‘[01m[Kdev_t[m[K’?
+[8.017s]   136 |         [01;31m[Kprev_t[m[K = t;
+[8.018s]       |         [01;31m[K^~~~~~[m[K
+[8.018s]       |         [32m[Kdev_t[m[K
+[8.022s] [01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:136:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[8.023s]   136 |         prev_t = [01;31m[Kt[m[K;
+[8.024s]       |                  [01;31m[K^[m[K
+[8.025s]       |                  [32m[Ktm[m[K
+[13.669s] make[2]: *** [CMakeFiles/wall_follow_node.dir/build.make:63: CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o] Error 1
+[13.669s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wall_follow_node.dir/all] Error 2
+[13.669s] make: *** [Makefile:141: all] Error 2
+[13.678s] Invoked command in '/sim_ws/build/wall_follow' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4

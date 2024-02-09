@@ -1,0 +1,43 @@
+[1.542s] Invoking command in '/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/sim_ws/build/f1tenth_gym_ros/prefix_override:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /sim_ws/build/f1tenth_gym_ros/build install --record /sim_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed
+[2.091s] running egg_info
+[2.092s] creating ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info
+[2.094s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[2.094s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[2.095s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[2.095s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[2.095s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[2.110s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.234s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.235s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[2.235s] running build
+[2.236s] running build_py
+[2.236s] creating /sim_ws/build/f1tenth_gym_ros/build
+[2.237s] creating /sim_ws/build/f1tenth_gym_ros/build/lib
+[2.237s] creating /sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[2.237s] copying f1tenth_gym_ros/__init__.py -> /sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[2.238s] copying f1tenth_gym_ros/gym_bridge.py -> /sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[2.246s] running install
+[2.251s] running install_lib
+[2.252s] creating /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[2.252s] copying /sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/gym_bridge.py -> /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[2.252s] copying /sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/__init__.py -> /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[2.255s] byte-compiling /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/gym_bridge.py to gym_bridge.cpython-38.pyc
+[2.262s] byte-compiling /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/__init__.py to __init__.cpython-38.pyc
+[2.263s] running install_data
+[2.264s] creating /sim_ws/install/f1tenth_gym_ros/share/ament_index
+[2.265s] creating /sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index
+[2.266s] creating /sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[2.266s] copying resource/f1tenth_gym_ros -> /sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[2.267s] copying package.xml -> /sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros
+[2.268s] creating /sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.269s] copying launch/gym_bridge_launch.py -> /sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.270s] copying launch/opp_racecar.xacro -> /sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.271s] copying launch/ego_racecar.xacro -> /sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.273s] copying launch/gym_bridge.rviz -> /sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[2.275s] creating /sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[2.276s] copying config/sim.yaml -> /sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[2.276s] running install_egg_info
+[2.277s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info
+[2.279s] running install_scripts
+[2.324s] Installing gym_bridge script to /sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[2.330s] writing list of installed files to '/sim_ws/build/f1tenth_gym_ros/install.log'

@@ -1,0 +1,15 @@
+[0.738s] Invoking command in '/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4
+[0.926s] [35m[1mScanning dependencies of target safety_node[0m
+[1.188s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o[0m
+[5.792s] [01m[K/sim_ws/src/safety_node/src/safety_node.cpp:[m[K In member function ‘[01m[Kvoid Safety::drive_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[5.792s] [01m[K/sim_ws/src/safety_node/src/safety_node.cpp:43:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst _twist_type[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’}
+[5.793s]    43 |         speed = drive_msg->twist[01;31m[K->[m[Ktwist->linear->x;
+[5.794s]       |                                 [01;31m[K^~[m[K
+[5.805s] [01m[K/sim_ws/src/safety_node/src/safety_node.cpp:[m[K In member function ‘[01m[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[5.806s] [01m[K/sim_ws/src/safety_node/src/safety_node.cpp:66:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[5.806s]    66 |         for (int i = 0; [01;35m[Ki < sizeof(ranges) / sizeof(float)[m[K; i++) {
+[5.806s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.176s] make[2]: *** [CMakeFiles/safety_node.dir/build.make:63: CMakeFiles/safety_node.dir/src/safety_node.cpp.o] Error 1
+[12.177s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/safety_node.dir/all] Error 2
+[12.185s] make: *** [Makefile:141: all] Error 2
+[12.186s] Invoked command in '/sim_ws/build/safety_node' returned '2': CMAKE_PREFIX_PATH=/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4

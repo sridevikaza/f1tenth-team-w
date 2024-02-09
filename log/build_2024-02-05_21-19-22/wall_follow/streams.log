@@ -1,0 +1,28 @@
+[0.666s] Invoking command in '/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
+[0.810s] [35m[1mScanning dependencies of target wall_follow_node[0m
+[1.041s] [ 50%] [32mBuilding CXX object CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o[0m
+[17.596s] [100%] [32m[1mLinking CXX executable wall_follow_node[0m
+[18.443s] [100%] Built target wall_follow_node
+[18.478s] Invoked command in '/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
+[18.596s] Invoking command in '/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/wall_follow
+[18.639s] -- Install configuration: ""
+[18.641s] -- Installing: /sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node
+[18.654s] -- Set runtime path of "/sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node" to ""
+[18.656s] -- Up-to-date: /sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow
+[18.657s] -- Up-to-date: /sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow
+[18.660s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh
+[18.661s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv
+[18.663s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/path.sh
+[18.664s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv
+[18.666s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.bash
+[18.668s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.sh
+[18.673s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh
+[18.675s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv
+[18.676s] -- Installing: /sim_ws/install/wall_follow/share/wall_follow/package.dsv
+[18.679s] -- Up-to-date: /sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow
+[18.681s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake
+[18.681s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake
+[18.682s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/package.xml
+[18.682s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow//launch
+[18.682s] -- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow//launch/wall_follow_launch.py
+[18.696s] Invoked command in '/sim_ws/build/wall_follow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/wall_follow

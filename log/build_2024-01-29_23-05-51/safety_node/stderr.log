@@ -1,0 +1,12 @@
+[01m[K/sim_ws/src/safety_node/src/safety_node.cpp:[m[K In member function ‘[01m[Kvoid Safety::drive_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/safety_node/src/safety_node.cpp:43:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst _twist_type[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >[m[K’}
+   43 |         speed = drive_msg->twist[01;31m[K->[m[Ktwist->linear->x;
+      |                                 [01;31m[K^~[m[K
+[01m[K/sim_ws/src/safety_node/src/safety_node.cpp:[m[K In member function ‘[01m[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/safety_node/src/safety_node.cpp:65:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize[m[K’ was not declared in this scope; did you mean ‘[01m[Kdysize[m[K’?
+   65 |         for (int i = 0; i < [01;31m[Ksize[m[K(ranges); i++) {
+      |                             [01;31m[K^~~~[m[K
+      |                             [32m[Kdysize[m[K
+make[2]: *** [CMakeFiles/safety_node.dir/build.make:63: CMakeFiles/safety_node.dir/src/safety_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/safety_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

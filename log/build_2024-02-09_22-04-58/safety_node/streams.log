@@ -1,0 +1,35 @@
+[0.518s] Invoking command in '/sim_ws/build/safety_node': /usr/bin/cmake /sim_ws/src/f1tenth_lab2/safety_node -DCMAKE_INSTALL_PREFIX=/sim_ws/install/safety_node
+[0.896s] -- The C compiler identification is GNU 9.4.0
+[1.037s] -- The CXX compiler identification is GNU 9.4.0
+[1.048s] -- Check for working C compiler: /usr/bin/cc
+[1.213s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.217s] -- Detecting C compiler ABI info
+[1.437s] -- Detecting C compiler ABI info - done
+[1.480s] -- Detecting C compile features
+[1.481s] -- Detecting C compile features - done
+[1.495s] -- Check for working CXX compiler: /usr/bin/c++
+[1.682s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.685s] -- Detecting CXX compiler ABI info
+[2.082s] -- Detecting CXX compiler ABI info - done
+[2.123s] -- Detecting CXX compile features
+[2.125s] -- Detecting CXX compile features - done
+[2.145s] CMake Error at CMakeLists.txt:24 (find_package):
+[2.145s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.146s]   has asked CMake to find a package configuration file provided by
+[2.147s]   "ament_cmake", but CMake did not find one.
+[2.147s] 
+[2.147s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.147s]   any of the following names:
+[2.147s] 
+[2.148s]     ament_cmakeConfig.cmake
+[2.148s]     ament_cmake-config.cmake
+[2.148s] 
+[2.148s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.148s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.148s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.149s]   has been installed.
+[2.149s] 
+[2.150s] 
+[2.150s] -- Configuring incomplete, errors occurred!
+[2.150s] See also "/sim_ws/build/safety_node/CMakeFiles/CMakeOutput.log".
+[2.156s] Invoked command in '/sim_ws/build/safety_node' returned '1': /usr/bin/cmake /sim_ws/src/f1tenth_lab2/safety_node -DCMAKE_INSTALL_PREFIX=/sim_ws/install/safety_node

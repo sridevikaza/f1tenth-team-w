@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.000272] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.000323] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.003818] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.072560] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[0.102894] (-) TimerEvent: {}
+[0.208893] (-) TimerEvent: {}
+[0.309665] (-) TimerEvent: {}
+[0.412050] (-) TimerEvent: {}
+[0.514668] (-) TimerEvent: {}
+[0.618469] (-) TimerEvent: {}
+[0.721290] (-) TimerEvent: {}
+[0.776229] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'cmake'}
+[0.778942] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'build'}
+[0.782018] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/build/safety_node', '--', '-j4', '-l4'], 'cwd': '/sim_ws/build/safety_node', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,20,0'), ('HOSTNAME', '1d826d35a00c'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'novnc:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/build/safety_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.821760] (-) TimerEvent: {}
+[0.923287] (-) TimerEvent: {}
+[1.025797] (-) TimerEvent: {}
+[1.126509] (-) TimerEvent: {}
+[1.153366] (safety_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety_node\x1b[0m\n'}
+[1.227587] (-) TimerEvent: {}
+[1.329392] (-) TimerEvent: {}
+[1.333163] (safety_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o\x1b[0m\n'}
+[1.429755] (-) TimerEvent: {}
+[1.530688] (-) TimerEvent: {}
+[1.638101] (-) TimerEvent: {}
+[1.739153] (-) TimerEvent: {}
+[1.840201] (-) TimerEvent: {}
+[1.945905] (-) TimerEvent: {}
+[2.047736] (-) TimerEvent: {}
+[2.151547] (-) TimerEvent: {}
+[2.252951] (-) TimerEvent: {}
+[2.322693] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/sim_ws/build/f1tenth_gym_ros/install.log', '--install-scripts', '$base/lib/f1tenth_gym_ros', '--single-version-externally-managed'], 'cwd': '/sim_ws/src/f1tenth_gym_ros', 'env': {'TMUX': '/tmp//tmux-0/default,20,0', 'HOSTNAME': '1d826d35a00c', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/sim_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/sim_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'novnc:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'PWD': '/sim_ws/build/f1tenth_gym_ros', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/sim_ws/build/f1tenth_gym_ros/prefix_override:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TMUX_PANE': '%1'}, 'shell': False}
+[2.355877] (-) TimerEvent: {}
+[2.462310] (-) TimerEvent: {}
+[2.563236] (-) TimerEvent: {}
+[2.664249] (-) TimerEvent: {}
+[2.766783] (-) TimerEvent: {}
+[2.869719] (-) TimerEvent: {}
+[2.958475] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.959894] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[2.960756] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[2.961286] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[2.961886] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[2.962315] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[2.969997] (-) TimerEvent: {}
+[3.071301] (-) TimerEvent: {}
+[3.125765] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[3.128120] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[3.130650] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[3.132083] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[3.138851] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[3.142205] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[3.147014] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[3.150450] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.156467] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.169151] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[3.172068] (-) TimerEvent: {}
+[3.187011] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[3.272326] (-) TimerEvent: {}
+[3.298480] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[3.319324] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[3.372713] (-) TimerEvent: {}
+[3.410218] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[3.473429] (-) TimerEvent: {}
+[3.493118] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[3.574093] (-) TimerEvent: {}
+[3.678278] (-) TimerEvent: {}
+[3.780708] (-) TimerEvent: {}
+[3.884253] (-) TimerEvent: {}
+[3.986826] (-) TimerEvent: {}
+[4.089416] (-) TimerEvent: {}
+[4.212327] (-) TimerEvent: {}
+[4.314302] (-) TimerEvent: {}
+[4.416918] (-) TimerEvent: {}
+[4.519325] (-) TimerEvent: {}
+[4.620605] (-) TimerEvent: {}
+[4.722089] (-) TimerEvent: {}
+[4.822661] (-) TimerEvent: {}
+[4.925890] (-) TimerEvent: {}
+[5.036770] (-) TimerEvent: {}
+[5.137904] (-) TimerEvent: {}
+[5.241984] (-) TimerEvent: {}
+[5.343979] (-) TimerEvent: {}
+[5.446853] (-) TimerEvent: {}
+[5.547795] (-) TimerEvent: {}
+[5.648936] (-) TimerEvent: {}
+[5.751056] (-) TimerEvent: {}
+[5.852332] (-) TimerEvent: {}
+[5.957207] (-) TimerEvent: {}
+[6.058291] (-) TimerEvent: {}
+[6.159405] (-) TimerEvent: {}
+[6.260570] (-) TimerEvent: {}
+[6.363564] (-) TimerEvent: {}
+[6.466572] (-) TimerEvent: {}
+[6.567945] (-) TimerEvent: {}
+[6.570170] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::drive_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.570696] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:43:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst _twist_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::TwistWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.570977] (safety_node) StderrLine: {'line': b'   43 |         speed = drive_msg->twist\x1b[01;31m\x1b[K->\x1b[m\x1b[Ktwist->linear->x;\n'}
+[6.571219] (safety_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.584351] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.585529] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:65:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdysize\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.586601] (safety_node) StderrLine: {'line': b'   65 |         for (int i = 0; i < \x1b[01;31m\x1b[Ksize\x1b[m\x1b[K(ranges); i++) {\n'}
+[6.587823] (safety_node) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.588858] (safety_node) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kdysize\x1b[m\x1b[K\n'}
+[6.590938] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:74:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmax(double&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.591928] (safety_node) StderrLine: {'line': b'   74 |                 auto ttc = range / max(range_rate, 0\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.592983] (safety_node) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.594914] (safety_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:62\x1b[m\x1b[K,\n'}
+[6.595358] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[6.596327] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.596688] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.596932] (safety_node) StderrLine: {'line': b'  222 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b)\n'}
+[6.597149] (safety_node) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.597356] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.597527] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:74:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.597781] (safety_node) StderrLine: {'line': b'   74 |                 auto ttc = range / max(range_rate, 0\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.597954] (safety_node) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.598116] (safety_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:62\x1b[m\x1b[K,\n'}
+[6.598275] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[6.598433] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.598669] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:268:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.606535] (safety_node) StderrLine: {'line': b'  268 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b, _Compare __comp)\n'}
+[6.606840] (safety_node) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.607042] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:268:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.607336] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:74:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.607627] (safety_node) StderrLine: {'line': b'   74 |                 auto ttc = range / max(range_rate, 0\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.607877] (safety_node) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.608131] (safety_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:62\x1b[m\x1b[K,\n'}
+[6.608334] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[6.608525] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[6.608842] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.609073] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[6.609316] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.609534] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algo.h:3462:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.609814] (safety_node) StderrLine: {'line': b' 3462 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp> __l)\n'}
+[6.610009] (safety_node) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.610223] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algo.h:3462:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.616022] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:74:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.616273] (safety_node) StderrLine: {'line': b'   74 |                 auto ttc = range / max(range_rate, 0\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.616499] (safety_node) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.616792] (safety_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:62\x1b[m\x1b[K,\n'}
+[6.617007] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[6.617215] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[6.617423] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.617805] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[6.618022] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.618225] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algo.h:3468:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.618504] (safety_node) StderrLine: {'line': b' 3468 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp> __l, _Compare __comp)\n'}
+[6.618836] (safety_node) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.619043] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algo.h:3468:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.619258] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:74:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.619439] (safety_node) StderrLine: {'line': b'   74 |                 auto ttc = range / max(range_rate, 0\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.619707] (safety_node) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.619905] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:78:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.620107] (safety_node) StderrLine: {'line': b'   78 |                     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(stop_msg);\n'}
+[6.620299] (safety_node) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.620514] (safety_node) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[6.668129] (-) TimerEvent: {}
+[6.769238] (-) TimerEvent: {}
+[6.870844] (-) TimerEvent: {}
+[6.977477] (-) TimerEvent: {}
+[7.078738] (-) TimerEvent: {}
+[7.181274] (-) TimerEvent: {}
+[7.283337] (-) TimerEvent: {}
+[7.386921] (-) TimerEvent: {}
+[7.489978] (-) TimerEvent: {}
+[7.591079] (-) TimerEvent: {}
+[7.701607] (-) TimerEvent: {}
+[7.802280] (-) TimerEvent: {}
+[7.903302] (-) TimerEvent: {}
+[8.005577] (-) TimerEvent: {}
+[8.106419] (-) TimerEvent: {}
+[8.207640] (-) TimerEvent: {}
+[8.308948] (-) TimerEvent: {}
+[8.411792] (-) TimerEvent: {}
+[8.515739] (-) TimerEvent: {}
+[8.618803] (-) TimerEvent: {}
+[8.722055] (-) TimerEvent: {}
+[8.824337] (-) TimerEvent: {}
+[8.928621] (-) TimerEvent: {}
+[9.030928] (-) TimerEvent: {}
+[9.133221] (-) TimerEvent: {}
+[9.235179] (-) TimerEvent: {}
+[9.335926] (-) TimerEvent: {}
+[9.436932] (-) TimerEvent: {}
+[9.537622] (-) TimerEvent: {}
+[9.639691] (-) TimerEvent: {}
+[9.742582] (-) TimerEvent: {}
+[9.845101] (-) TimerEvent: {}
+[9.946227] (-) TimerEvent: {}
+[10.050783] (-) TimerEvent: {}
+[10.152812] (-) TimerEvent: {}
+[10.253773] (-) TimerEvent: {}
+[10.355395] (-) TimerEvent: {}
+[10.455977] (-) TimerEvent: {}
+[10.556786] (-) TimerEvent: {}
+[10.659566] (-) TimerEvent: {}
+[10.760759] (-) TimerEvent: {}
+[10.862363] (-) TimerEvent: {}
+[10.963923] (-) TimerEvent: {}
+[11.065424] (-) TimerEvent: {}
+[11.166651] (-) TimerEvent: {}
+[11.267730] (-) TimerEvent: {}
+[11.369125] (-) TimerEvent: {}
+[11.471686] (-) TimerEvent: {}
+[11.573992] (-) TimerEvent: {}
+[11.675695] (-) TimerEvent: {}
+[11.777579] (-) TimerEvent: {}
+[11.881840] (-) TimerEvent: {}
+[11.982852] (-) TimerEvent: {}
+[12.085050] (-) TimerEvent: {}
+[12.186676] (-) TimerEvent: {}
+[12.287887] (-) TimerEvent: {}
+[12.390459] (-) TimerEvent: {}
+[12.491950] (-) TimerEvent: {}
+[12.593439] (-) TimerEvent: {}
+[12.694704] (-) TimerEvent: {}
+[12.796063] (-) TimerEvent: {}
+[12.897884] (-) TimerEvent: {}
+[12.999659] (-) TimerEvent: {}
+[13.104818] (-) TimerEvent: {}
+[13.205932] (-) TimerEvent: {}
+[13.306676] (-) TimerEvent: {}
+[13.410862] (-) TimerEvent: {}
+[13.512401] (-) TimerEvent: {}
+[13.613956] (-) TimerEvent: {}
+[13.715397] (-) TimerEvent: {}
+[13.816596] (-) TimerEvent: {}
+[13.917694] (-) TimerEvent: {}
+[14.021463] (-) TimerEvent: {}
+[14.050184] (safety_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/safety_node.dir/build.make:63: CMakeFiles/safety_node.dir/src/safety_node.cpp.o] Error 1\n'}
+[14.051444] (safety_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/safety_node.dir/all] Error 2\n'}
+[14.051789] (safety_node) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[14.062725] (safety_node) CommandEnded: {'returncode': 2}
+[14.121884] (-) TimerEvent: {}
+[14.222901] (-) TimerEvent: {}
+[14.262552] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 2}
+[14.275895] (-) EventReactorShutdown: {}

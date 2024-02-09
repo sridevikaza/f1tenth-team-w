@@ -1,0 +1,352 @@
+[0.000000] (-) TimerEvent: {}
+[0.006800] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.007120] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.007410] (wall_follow) JobQueued: {'identifier': 'wall_follow', 'dependencies': OrderedDict()}
+[0.007678] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.089477] (-) TimerEvent: {}
+[0.108701] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[0.138813] (wall_follow) JobStarted: {'identifier': 'wall_follow'}
+[0.189958] (-) TimerEvent: {}
+[0.295752] (-) TimerEvent: {}
+[0.401713] (-) TimerEvent: {}
+[0.510794] (-) TimerEvent: {}
+[0.616472] (-) TimerEvent: {}
+[0.718038] (-) TimerEvent: {}
+[0.819034] (-) TimerEvent: {}
+[0.920372] (-) TimerEvent: {}
+[1.039168] (-) TimerEvent: {}
+[1.145013] (-) TimerEvent: {}
+[1.178267] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'cmake'}
+[1.195025] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'build'}
+[1.198103] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/build/safety_node', '--', '-j4', '-l4'], 'cwd': '/sim_ws/build/safety_node', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,19,0'), ('HOSTNAME', '1d826d35a00c'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'novnc:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/wall_follow:/sim_ws/install/safety_node:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/build/safety_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/wall_follow/lib/python3.8/site-packages:/sim_ws/install/safety_node/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/wall_follow:/sim_ws/install/safety_node:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[1.245720] (-) TimerEvent: {}
+[1.257893] (wall_follow) JobProgress: {'identifier': 'wall_follow', 'progress': 'cmake'}
+[1.258065] (wall_follow) JobProgress: {'identifier': 'wall_follow', 'progress': 'build'}
+[1.258157] (wall_follow) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/build/wall_follow', '--', '-j4', '-l4'], 'cwd': '/sim_ws/build/wall_follow', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,19,0'), ('HOSTNAME', '1d826d35a00c'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'novnc:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/wall_follow:/sim_ws/install/safety_node:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/build/wall_follow'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/wall_follow/lib/python3.8/site-packages:/sim_ws/install/safety_node/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/wall_follow:/sim_ws/install/safety_node:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[1.346127] (-) TimerEvent: {}
+[1.448551] (-) TimerEvent: {}
+[1.512771] (safety_node) StdoutLine: {'line': b'[100%] Built target safety_node\n'}
+[1.547024] (wall_follow) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wall_follow_node\x1b[0m\n'}
+[1.548604] (-) TimerEvent: {}
+[1.554480] (safety_node) CommandEnded: {'returncode': 0}
+[1.650197] (-) TimerEvent: {}
+[1.754593] (-) TimerEvent: {}
+[1.896108] (-) TimerEvent: {}
+[1.915734] (wall_follow) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o\x1b[0m\n'}
+[1.930002] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'install'}
+[1.982943] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/sim_ws/build/safety_node'], 'cwd': '/sim_ws/build/safety_node', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,19,0'), ('HOSTNAME', '1d826d35a00c'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'novnc:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/wall_follow:/sim_ws/install/safety_node:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/build/safety_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/wall_follow/lib/python3.8/site-packages:/sim_ws/install/safety_node/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/wall_follow:/sim_ws/install/safety_node:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[1.997277] (-) TimerEvent: {}
+[2.019440] (safety_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.021846] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/lib/safety_node/safety_node\n'}
+[2.025443] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node\n'}
+[2.027214] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node\n'}
+[2.028564] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh\n'}
+[2.030236] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv\n'}
+[2.033794] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/path.sh\n'}
+[2.038529] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/path.dsv\n'}
+[2.041625] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.bash\n'}
+[2.044385] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.sh\n'}
+[2.046219] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.zsh\n'}
+[2.047905] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.dsv\n'}
+[2.049162] (safety_node) StdoutLine: {'line': b'-- Installing: /sim_ws/install/safety_node/share/safety_node/package.dsv\n'}
+[2.051767] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node\n'}
+[2.053621] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake\n'}
+[2.054829] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake\n'}
+[2.056773] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/package.xml\n'}
+[2.071950] (safety_node) CommandEnded: {'returncode': 0}
+[2.099265] (-) TimerEvent: {}
+[2.208013] (-) TimerEvent: {}
+[2.316985] (-) TimerEvent: {}
+[2.423023] (-) TimerEvent: {}
+[2.470284] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 0}
+[2.524514] (-) TimerEvent: {}
+[2.625635] (-) TimerEvent: {}
+[2.726408] (-) TimerEvent: {}
+[2.831151] (-) TimerEvent: {}
+[2.934230] (-) TimerEvent: {}
+[3.040224] (-) TimerEvent: {}
+[3.126750] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/sim_ws/build/f1tenth_gym_ros/install.log', '--install-scripts', '$base/lib/f1tenth_gym_ros', '--single-version-externally-managed'], 'cwd': '/sim_ws/src/f1tenth_gym_ros', 'env': {'TMUX': '/tmp/tmux-0/default,19,0', 'HOSTNAME': '1d826d35a00c', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/sim_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'novnc:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/sim_ws/install/wall_follow:/sim_ws/install/safety_node:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'PWD': '/sim_ws/build/f1tenth_gym_ros', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/sim_ws/build/f1tenth_gym_ros/prefix_override:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/sim_ws/install/wall_follow/lib/python3.8/site-packages:/sim_ws/install/safety_node/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TMUX_PANE': '%1', 'CMAKE_PREFIX_PATH': '/sim_ws/install/wall_follow:/sim_ws/install/safety_node'}, 'shell': False}
+[3.144995] (-) TimerEvent: {}
+[3.246962] (-) TimerEvent: {}
+[3.349133] (-) TimerEvent: {}
+[3.454259] (-) TimerEvent: {}
+[3.558420] (-) TimerEvent: {}
+[3.658855] (-) TimerEvent: {}
+[3.759489] (-) TimerEvent: {}
+[3.862604] (-) TimerEvent: {}
+[3.977136] (-) TimerEvent: {}
+[4.040947] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[4.045275] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[4.047364] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[4.049142] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[4.049466] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[4.049798] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[4.078155] (-) TimerEvent: {}
+[4.182636] (-) TimerEvent: {}
+[4.283938] (-) TimerEvent: {}
+[4.355109] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[4.368978] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[4.370583] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[4.371023] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[4.379452] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[4.383283] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[4.384408] (-) TimerEvent: {}
+[4.386217] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[4.387529] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.391703] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.404203] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[4.406851] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[4.485419] (-) TimerEvent: {}
+[4.512757] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[4.516799] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[4.585854] (-) TimerEvent: {}
+[4.635945] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[4.688019] (-) TimerEvent: {}
+[4.755732] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[4.788255] (-) TimerEvent: {}
+[4.910459] (-) TimerEvent: {}
+[5.016196] (-) TimerEvent: {}
+[5.116949] (-) TimerEvent: {}
+[5.218820] (-) TimerEvent: {}
+[5.320705] (-) TimerEvent: {}
+[5.423213] (-) TimerEvent: {}
+[5.531433] (-) TimerEvent: {}
+[5.633775] (-) TimerEvent: {}
+[5.734767] (-) TimerEvent: {}
+[5.841881] (-) TimerEvent: {}
+[5.951798] (-) TimerEvent: {}
+[6.291972] (-) TimerEvent: {}
+[6.425864] (-) TimerEvent: {}
+[6.530893] (-) TimerEvent: {}
+[6.633879] (-) TimerEvent: {}
+[6.735435] (-) TimerEvent: {}
+[6.836919] (-) TimerEvent: {}
+[6.941409] (-) TimerEvent: {}
+[7.053627] (-) TimerEvent: {}
+[7.155911] (-) TimerEvent: {}
+[7.257734] (-) TimerEvent: {}
+[7.360555] (-) TimerEvent: {}
+[7.462264] (-) TimerEvent: {}
+[7.564490] (-) TimerEvent: {}
+[7.670668] (-) TimerEvent: {}
+[7.779961] (-) TimerEvent: {}
+[7.883814] (-) TimerEvent: {}
+[7.985502] (-) TimerEvent: {}
+[8.087457] (-) TimerEvent: {}
+[8.192365] (-) TimerEvent: {}
+[8.295971] (-) TimerEvent: {}
+[8.414380] (-) TimerEvent: {}
+[8.515449] (-) TimerEvent: {}
+[8.620137] (-) TimerEvent: {}
+[8.726004] (-) TimerEvent: {}
+[8.830698] (-) TimerEvent: {}
+[8.931868] (-) TimerEvent: {}
+[9.032574] (-) TimerEvent: {}
+[9.133160] (-) TimerEvent: {}
+[9.234799] (-) TimerEvent: {}
+[9.358229] (-) TimerEvent: {}
+[9.458912] (-) TimerEvent: {}
+[9.559642] (-) TimerEvent: {}
+[9.660290] (-) TimerEvent: {}
+[9.761061] (-) TimerEvent: {}
+[9.861775] (-) TimerEvent: {}
+[9.965098] (-) TimerEvent: {}
+[10.065795] (-) TimerEvent: {}
+[10.166659] (-) TimerEvent: {}
+[10.269110] (-) TimerEvent: {}
+[10.369887] (-) TimerEvent: {}
+[10.470581] (-) TimerEvent: {}
+[10.572405] (-) TimerEvent: {}
+[10.679734] (-) TimerEvent: {}
+[10.784093] (-) TimerEvent: {}
+[10.888701] (-) TimerEvent: {}
+[10.991393] (-) TimerEvent: {}
+[11.093699] (-) TimerEvent: {}
+[11.204734] (-) TimerEvent: {}
+[11.306861] (-) TimerEvent: {}
+[11.409339] (-) TimerEvent: {}
+[11.511607] (-) TimerEvent: {}
+[11.613674] (-) TimerEvent: {}
+[11.718012] (-) TimerEvent: {}
+[11.828765] (-) TimerEvent: {}
+[11.931013] (-) TimerEvent: {}
+[12.032077] (-) TimerEvent: {}
+[12.134791] (-) TimerEvent: {}
+[12.236010] (-) TimerEvent: {}
+[12.337039] (-) TimerEvent: {}
+[12.438780] (-) TimerEvent: {}
+[12.543812] (-) TimerEvent: {}
+[12.646316] (-) TimerEvent: {}
+[12.748283] (-) TimerEvent: {}
+[12.850269] (-) TimerEvent: {}
+[12.951466] (-) TimerEvent: {}
+[13.052681] (-) TimerEvent: {}
+[13.154878] (-) TimerEvent: {}
+[13.266133] (-) TimerEvent: {}
+[13.374727] (-) TimerEvent: {}
+[13.477828] (-) TimerEvent: {}
+[13.579623] (-) TimerEvent: {}
+[13.682017] (-) TimerEvent: {}
+[13.788176] (-) TimerEvent: {}
+[13.889743] (-) TimerEvent: {}
+[13.990440] (-) TimerEvent: {}
+[14.093939] (-) TimerEvent: {}
+[14.198040] (-) TimerEvent: {}
+[14.300691] (-) TimerEvent: {}
+[14.410721] (-) TimerEvent: {}
+[14.512075] (-) TimerEvent: {}
+[14.616777] (-) TimerEvent: {}
+[14.718811] (-) TimerEvent: {}
+[14.820936] (-) TimerEvent: {}
+[14.923074] (-) TimerEvent: {}
+[15.024571] (-) TimerEvent: {}
+[15.125223] (-) TimerEvent: {}
+[15.228221] (-) TimerEvent: {}
+[15.332959] (-) TimerEvent: {}
+[15.433956] (-) TimerEvent: {}
+[15.535846] (-) TimerEvent: {}
+[15.637640] (-) TimerEvent: {}
+[15.739688] (-) TimerEvent: {}
+[15.843341] (-) TimerEvent: {}
+[15.944845] (-) TimerEvent: {}
+[16.060722] (-) TimerEvent: {}
+[16.162894] (-) TimerEvent: {}
+[16.264717] (-) TimerEvent: {}
+[16.418668] (-) TimerEvent: {}
+[16.520624] (-) TimerEvent: {}
+[16.634876] (-) TimerEvent: {}
+[16.735689] (-) TimerEvent: {}
+[16.836367] (-) TimerEvent: {}
+[16.937504] (-) TimerEvent: {}
+[17.038589] (-) TimerEvent: {}
+[17.140997] (-) TimerEvent: {}
+[17.241811] (-) TimerEvent: {}
+[17.342557] (-) TimerEvent: {}
+[17.443299] (-) TimerEvent: {}
+[17.544054] (-) TimerEvent: {}
+[17.646582] (-) TimerEvent: {}
+[17.747864] (-) TimerEvent: {}
+[17.853432] (-) TimerEvent: {}
+[17.954524] (-) TimerEvent: {}
+[18.056406] (-) TimerEvent: {}
+[18.158353] (-) TimerEvent: {}
+[18.259024] (-) TimerEvent: {}
+[18.528408] (-) TimerEvent: {}
+[18.645554] (-) TimerEvent: {}
+[18.761005] (-) TimerEvent: {}
+[18.869460] (-) TimerEvent: {}
+[18.976049] (-) TimerEvent: {}
+[19.092119] (-) TimerEvent: {}
+[19.197158] (-) TimerEvent: {}
+[19.300959] (-) TimerEvent: {}
+[19.466432] (-) TimerEvent: {}
+[19.598948] (-) TimerEvent: {}
+[19.699811] (-) TimerEvent: {}
+[19.803499] (-) TimerEvent: {}
+[19.905434] (-) TimerEvent: {}
+[20.007352] (-) TimerEvent: {}
+[20.112323] (-) TimerEvent: {}
+[20.213151] (-) TimerEvent: {}
+[20.313888] (-) TimerEvent: {}
+[20.414555] (-) TimerEvent: {}
+[20.515343] (-) TimerEvent: {}
+[20.616788] (-) TimerEvent: {}
+[20.717720] (-) TimerEvent: {}
+[20.818273] (-) TimerEvent: {}
+[20.920810] (-) TimerEvent: {}
+[21.021545] (-) TimerEvent: {}
+[21.122173] (-) TimerEvent: {}
+[21.222770] (-) TimerEvent: {}
+[21.323385] (-) TimerEvent: {}
+[21.424094] (-) TimerEvent: {}
+[21.536322] (-) TimerEvent: {}
+[21.637781] (-) TimerEvent: {}
+[21.739677] (-) TimerEvent: {}
+[21.840524] (-) TimerEvent: {}
+[21.941347] (-) TimerEvent: {}
+[22.042136] (-) TimerEvent: {}
+[22.142704] (-) TimerEvent: {}
+[22.243368] (-) TimerEvent: {}
+[22.344424] (-) TimerEvent: {}
+[22.445025] (-) TimerEvent: {}
+[22.549980] (-) TimerEvent: {}
+[22.650747] (-) TimerEvent: {}
+[22.752190] (-) TimerEvent: {}
+[22.855363] (-) TimerEvent: {}
+[22.957197] (-) TimerEvent: {}
+[23.063361] (-) TimerEvent: {}
+[23.164579] (-) TimerEvent: {}
+[23.266818] (-) TimerEvent: {}
+[23.369737] (-) TimerEvent: {}
+[23.472623] (-) TimerEvent: {}
+[23.576548] (-) TimerEvent: {}
+[23.691594] (-) TimerEvent: {}
+[23.793180] (-) TimerEvent: {}
+[23.896241] (-) TimerEvent: {}
+[24.002149] (-) TimerEvent: {}
+[24.104220] (-) TimerEvent: {}
+[24.208840] (-) TimerEvent: {}
+[24.311151] (-) TimerEvent: {}
+[24.413672] (-) TimerEvent: {}
+[24.516135] (-) TimerEvent: {}
+[24.618735] (-) TimerEvent: {}
+[24.720323] (-) TimerEvent: {}
+[24.823608] (-) TimerEvent: {}
+[24.931986] (-) TimerEvent: {}
+[25.037736] (-) TimerEvent: {}
+[25.196594] (-) TimerEvent: {}
+[25.318867] (-) TimerEvent: {}
+[25.472338] (-) TimerEvent: {}
+[25.576426] (-) TimerEvent: {}
+[25.682645] (-) TimerEvent: {}
+[25.786270] (-) TimerEvent: {}
+[25.939118] (-) TimerEvent: {}
+[26.041314] (-) TimerEvent: {}
+[26.144647] (-) TimerEvent: {}
+[26.254767] (-) TimerEvent: {}
+[26.357278] (-) TimerEvent: {}
+[26.459098] (-) TimerEvent: {}
+[26.569891] (-) TimerEvent: {}
+[26.656140] (wall_follow) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wall_follow_node\x1b[0m\n'}
+[26.670110] (-) TimerEvent: {}
+[26.770789] (-) TimerEvent: {}
+[26.871378] (-) TimerEvent: {}
+[26.972668] (-) TimerEvent: {}
+[27.073746] (-) TimerEvent: {}
+[27.175282] (-) TimerEvent: {}
+[27.279306] (-) TimerEvent: {}
+[27.382275] (-) TimerEvent: {}
+[27.484730] (-) TimerEvent: {}
+[27.587751] (-) TimerEvent: {}
+[27.693562] (-) TimerEvent: {}
+[27.735333] (wall_follow) StdoutLine: {'line': b'[100%] Built target wall_follow_node\n'}
+[27.777306] (wall_follow) CommandEnded: {'returncode': 0}
+[27.794142] (-) TimerEvent: {}
+[27.898676] (wall_follow) JobProgress: {'identifier': 'wall_follow', 'progress': 'install'}
+[27.898873] (-) TimerEvent: {}
+[27.899591] (wall_follow) Command: {'cmd': ['/usr/bin/cmake', '--install', '/sim_ws/build/wall_follow'], 'cwd': '/sim_ws/build/wall_follow', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,19,0'), ('HOSTNAME', '1d826d35a00c'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'novnc:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/wall_follow:/sim_ws/install/safety_node:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/build/wall_follow'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/wall_follow/lib/python3.8/site-packages:/sim_ws/install/safety_node/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/wall_follow:/sim_ws/install/safety_node:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[27.923082] (wall_follow) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.924078] (wall_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node\n'}
+[27.931032] (wall_follow) StdoutLine: {'line': b'-- Set runtime path of "/sim_ws/install/wall_follow/lib/wall_follow/wall_follow_node" to ""\n'}
+[27.931519] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/ament_index/resource_index/package_run_dependencies/wall_follow\n'}
+[27.931875] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/ament_index/resource_index/parent_prefix_path/wall_follow\n'}
+[27.932312] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.sh\n'}
+[27.932665] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/ament_prefix_path.dsv\n'}
+[27.932837] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/path.sh\n'}
+[27.933263] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/environment/path.dsv\n'}
+[27.933545] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.bash\n'}
+[27.934080] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.sh\n'}
+[27.934294] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.zsh\n'}
+[27.934433] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/local_setup.dsv\n'}
+[27.934567] (wall_follow) StdoutLine: {'line': b'-- Installing: /sim_ws/install/wall_follow/share/wall_follow/package.dsv\n'}
+[27.934699] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/ament_index/resource_index/packages/wall_follow\n'}
+[27.934832] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig.cmake\n'}
+[27.934962] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/cmake/wall_followConfig-version.cmake\n'}
+[27.935103] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow/package.xml\n'}
+[27.938866] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow//launch\n'}
+[27.939132] (wall_follow) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/install/wall_follow/share/wall_follow//launch/wall_follow_launch.py\n'}
+[27.948069] (wall_follow) CommandEnded: {'returncode': 0}
+[28.000919] (-) TimerEvent: {}
+[28.101659] (-) TimerEvent: {}
+[28.173562] (wall_follow) JobEnded: {'identifier': 'wall_follow', 'rc': 0}
+[28.176198] (-) EventReactorShutdown: {}

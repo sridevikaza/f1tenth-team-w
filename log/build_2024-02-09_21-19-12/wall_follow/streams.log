@@ -1,0 +1,5 @@
+[0.368s] Invoking command in '/sim_ws/build/wall_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
+[0.462s] CMake Error: The source directory "/sim_ws/src/wall_follow" does not exist.
+[0.462s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.462s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.484s] Invoked command in '/sim_ws/build/wall_follow' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4

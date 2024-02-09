@@ -1,0 +1,5 @@
+[0.411s] Invoking command in '/sim_ws/build/wall_follow': /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4
+[0.533s] CMake Error: The source directory "/sim_ws/src/wall_follow" does not exist.
+[0.533s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.536s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.593s] Invoked command in '/sim_ws/build/wall_follow' returned '2': /usr/bin/cmake --build /sim_ws/build/wall_follow -- -j4 -l4

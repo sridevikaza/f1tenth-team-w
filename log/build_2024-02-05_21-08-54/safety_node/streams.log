@@ -1,0 +1,22 @@
+[0.397s] Invoking command in '/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4
+[0.550s] [100%] Built target safety_node
+[0.578s] Invoked command in '/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4
+[0.687s] Invoking command in '/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/safety_node
+[0.818s] -- Install configuration: ""
+[0.828s] -- Up-to-date: /sim_ws/install/safety_node/lib/safety_node/safety_node
+[0.840s] -- Up-to-date: /sim_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[0.841s] -- Up-to-date: /sim_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[0.842s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[0.842s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[0.842s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/path.sh
+[0.843s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/path.dsv
+[0.843s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.bash
+[0.843s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.sh
+[0.843s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.zsh
+[0.845s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.dsv
+[0.846s] -- Installing: /sim_ws/install/safety_node/share/safety_node/package.dsv
+[0.855s] -- Up-to-date: /sim_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[0.856s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[0.856s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[0.856s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/package.xml
+[0.856s] Invoked command in '/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/safety_node

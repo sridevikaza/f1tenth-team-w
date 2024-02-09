@@ -1,0 +1,10 @@
+[100%] Built target safety_node
+-- Install configuration: ""
+-- Up-to-date: /sim_ws/install/safety_node/lib/safety_node/safety_node
+-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/pythonpath.sh
+-- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv
+CMake Error at cmake_install.cmake:69 (file):
+  file INSTALL cannot find "/sim_ws/src/safety_node/safety_node": No such
+  file or directory.
+
+

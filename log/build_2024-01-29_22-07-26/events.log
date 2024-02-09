@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.001336] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.001476] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.001542] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.069291] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[0.098896] (-) TimerEvent: {}
+[0.200960] (-) TimerEvent: {}
+[0.302363] (-) TimerEvent: {}
+[0.403088] (-) TimerEvent: {}
+[0.503931] (-) TimerEvent: {}
+[0.606965] (-) TimerEvent: {}
+[0.709181] (-) TimerEvent: {}
+[0.772618] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'cmake'}
+[0.772827] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'build'}
+[0.772893] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/build/safety_node', '--', '-j4', '-l4'], 'cwd': '/sim_ws/build/safety_node', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,20,0'), ('HOSTNAME', '1d826d35a00c'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'novnc:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/build/safety_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.815831] (-) TimerEvent: {}
+[0.917222] (-) TimerEvent: {}
+[1.000270] (safety_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety_node\x1b[0m\n'}
+[1.017521] (-) TimerEvent: {}
+[1.133542] (-) TimerEvent: {}
+[1.215217] (safety_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o\x1b[0m\n'}
+[1.237566] (-) TimerEvent: {}
+[1.341667] (-) TimerEvent: {}
+[1.442450] (-) TimerEvent: {}
+[1.543802] (-) TimerEvent: {}
+[1.650299] (-) TimerEvent: {}
+[1.751278] (-) TimerEvent: {}
+[1.856790] (-) TimerEvent: {}
+[1.958584] (-) TimerEvent: {}
+[1.967630] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/sim_ws/build/f1tenth_gym_ros/install.log', '--install-scripts', '$base/lib/f1tenth_gym_ros', '--single-version-externally-managed'], 'cwd': '/sim_ws/src/f1tenth_gym_ros', 'env': {'TMUX': '/tmp//tmux-0/default,20,0', 'HOSTNAME': '1d826d35a00c', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/sim_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/sim_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'novnc:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'PWD': '/sim_ws/build/f1tenth_gym_ros', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/sim_ws/build/f1tenth_gym_ros/prefix_override:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TMUX_PANE': '%1'}, 'shell': False}
+[2.058885] (-) TimerEvent: {}
+[2.160627] (-) TimerEvent: {}
+[2.262543] (-) TimerEvent: {}
+[2.364285] (-) TimerEvent: {}
+[2.468097] (-) TimerEvent: {}
+[2.573910] (-) TimerEvent: {}
+[2.637556] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.639345] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[2.640061] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[2.641932] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[2.642145] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[2.642418] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[2.674162] (-) TimerEvent: {}
+[2.775555] (-) TimerEvent: {}
+[2.876935] (-) TimerEvent: {}
+[2.961947] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.966148] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.967187] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[2.967624] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[2.971525] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[2.974642] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[2.977261] (-) TimerEvent: {}
+[2.980736] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[2.983284] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.986886] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.993141] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[2.995681] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[3.060717] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[3.065002] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[3.077595] (-) TimerEvent: {}
+[3.125398] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[3.179756] (-) TimerEvent: {}
+[3.210552] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[3.280474] (-) TimerEvent: {}
+[3.382472] (-) TimerEvent: {}
+[3.483014] (-) TimerEvent: {}
+[3.586832] (-) TimerEvent: {}
+[3.687655] (-) TimerEvent: {}
+[3.789171] (-) TimerEvent: {}
+[3.890275] (-) TimerEvent: {}
+[3.992407] (-) TimerEvent: {}
+[4.104274] (-) TimerEvent: {}
+[4.205262] (-) TimerEvent: {}
+[4.306516] (-) TimerEvent: {}
+[4.407540] (-) TimerEvent: {}
+[4.508649] (-) TimerEvent: {}
+[4.612477] (-) TimerEvent: {}
+[4.713627] (-) TimerEvent: {}
+[4.816230] (-) TimerEvent: {}
+[4.917352] (-) TimerEvent: {}
+[5.018557] (-) TimerEvent: {}
+[5.119209] (-) TimerEvent: {}
+[5.220286] (-) TimerEvent: {}
+[5.322982] (-) TimerEvent: {}
+[5.424672] (-) TimerEvent: {}
+[5.526958] (-) TimerEvent: {}
+[5.629080] (-) TimerEvent: {}
+[5.730865] (-) TimerEvent: {}
+[5.837221] (-) TimerEvent: {}
+[5.902123] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:63:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kackermann_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.903348] (safety_node) StderrLine: {'line': b'   63 |     rclcpp::Publisher<ackermann_msgs::msg::\x1b[01;31m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K>::SharedPtr drive_publisher_;\n'}
+[5.903669] (safety_node) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.903859] (safety_node) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\n'}
+[5.904050] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:63:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kackermann_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.904244] (safety_node) StderrLine: {'line': b'   63 |     rclcpp::Publisher<ackermann_msgs::msg::\x1b[01;31m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K>::SharedPtr drive_publisher_;\n'}
+[5.904439] (safety_node) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.904717] (safety_node) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\n'}
+[5.904927] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:63:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.905133] (safety_node) StderrLine: {'line': b'   63 |     rclcpp::Publisher<ackermann_msgs::msg::ackermann_drive_stamped\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr drive_publisher_;\n'}
+[5.905319] (safety_node) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.905586] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:63:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.905809] (safety_node) StderrLine: {'line': b'   63 |     rclcpp::Publisher<ackermann_msgs::msg::ackermann_drive_stamped>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K drive_publisher_;\n'}
+[5.905975] (safety_node) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.906151] (safety_node) StderrLine: {'line': b'      |                                                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.907053] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:63:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdrive_publisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.907416] (safety_node) StderrLine: {'line': b'   63 | lcpp::Publisher<ackermann_msgs::msg::ackermann_drive_stamped>::SharedPtr \x1b[01;31m\x1b[Kdrive_publisher_\x1b[m\x1b[K;\n'}
+[5.907607] (safety_node) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.907815] (safety_node) StderrLine: {'line': b'      |                                                                          \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[5.915572] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSafety::Safety()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.916272] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:30:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdrive_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_publisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.916830] (safety_node) StderrLine: {'line': b'   30 |         \x1b[01;31m\x1b[Kdrive_publisher_\x1b[m\x1b[K = this->create_publisher<ackermann_msgs::msg::ackermann_drive_stamped>("/drive", 10);\n'}
+[5.917027] (safety_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.917212] (safety_node) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kcreate_publisher\x1b[m\x1b[K\n'}
+[5.917376] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:30:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kackermann_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.917692] (safety_node) StderrLine: {'line': b'   30 |         drive_publisher_ = this->create_publisher<ackermann_msgs::msg::\x1b[01;31m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K>("/drive", 10);\n'}
+[5.917877] (safety_node) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.918053] (safety_node) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\n'}
+[5.918282] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:30:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kackermann_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.918530] (safety_node) StderrLine: {'line': b'   30 |         drive_publisher_ = this->create_publisher<ackermann_msgs::msg::\x1b[01;31m\x1b[Kackermann_drive_stamped\x1b[m\x1b[K>("/drive", 10);\n'}
+[5.918731] (safety_node) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.918904] (safety_node) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[KAckermannDriveStamped\x1b[m\x1b[K\n'}
+[5.919066] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:30:109:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSafety::create_publisher<<expression error> >(const char [7], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.919229] (safety_node) StderrLine: {'line': b'   30 | ate_publisher<ackermann_msgs::msg::ackermann_drive_stamped>("/drive", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.919453] (safety_node) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.919638] (safety_node) StderrLine: {'line': b'\n'}
+[5.919802] (safety_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.919963] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.920120] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.920278] (safety_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.920444] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.920691] (safety_node) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[5.920881] (safety_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.921040] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.921203] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:30:109:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.921362] (safety_node) StderrLine: {'line': b'   30 | ate_publisher<ackermann_msgs::msg::ackermann_drive_stamped>("/drive", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.921521] (safety_node) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.921805] (safety_node) StderrLine: {'line': b'\n'}
+[5.937551] (-) TimerEvent: {}
+[6.003501] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::drive_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.003847] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:41:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.004062] (safety_node) StderrLine: {'line': b'   41 |     void drive_callback(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::ConstSharedPtr msg\x1b[m\x1b[K)\n'}
+[6.004229] (safety_node) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.012936] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.013276] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/safety_node/src/safety_node.cpp:47:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.013557] (safety_node) StderrLine: {'line': b'   47 |     void scan_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg\x1b[m\x1b[K)\n'}
+[6.013770] (safety_node) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[6.050167] (-) TimerEvent: {}
+[6.153476] (-) TimerEvent: {}
+[6.264660] (-) TimerEvent: {}
+[6.368707] (-) TimerEvent: {}
+[6.471376] (-) TimerEvent: {}
+[6.572711] (-) TimerEvent: {}
+[6.673964] (-) TimerEvent: {}
+[6.776539] (-) TimerEvent: {}
+[6.879203] (-) TimerEvent: {}
+[6.982871] (-) TimerEvent: {}
+[7.086274] (-) TimerEvent: {}
+[7.190476] (-) TimerEvent: {}
+[7.291892] (-) TimerEvent: {}
+[7.393645] (-) TimerEvent: {}
+[7.495064] (-) TimerEvent: {}
+[7.596482] (-) TimerEvent: {}
+[7.697533] (-) TimerEvent: {}
+[7.801344] (-) TimerEvent: {}
+[7.904648] (-) TimerEvent: {}
+[8.010162] (-) TimerEvent: {}
+[8.115368] (-) TimerEvent: {}
+[8.224023] (-) TimerEvent: {}
+[8.326199] (-) TimerEvent: {}
+[8.429304] (-) TimerEvent: {}
+[8.530813] (-) TimerEvent: {}
+[8.632940] (-) TimerEvent: {}
+[8.734855] (-) TimerEvent: {}
+[8.837207] (-) TimerEvent: {}
+[8.940155] (-) TimerEvent: {}
+[9.042713] (-) TimerEvent: {}
+[9.145305] (-) TimerEvent: {}
+[9.249061] (-) TimerEvent: {}
+[9.352311] (-) TimerEvent: {}
+[9.453140] (-) TimerEvent: {}
+[9.554293] (-) TimerEvent: {}
+[9.655298] (-) TimerEvent: {}
+[9.756126] (-) TimerEvent: {}
+[9.858798] (-) TimerEvent: {}
+[9.960654] (-) TimerEvent: {}
+[10.061886] (-) TimerEvent: {}
+[10.164019] (-) TimerEvent: {}
+[10.264846] (-) TimerEvent: {}
+[10.367742] (-) TimerEvent: {}
+[10.468838] (-) TimerEvent: {}
+[10.569685] (-) TimerEvent: {}
+[10.671511] (-) TimerEvent: {}
+[10.772598] (-) TimerEvent: {}
+[10.874215] (-) TimerEvent: {}
+[10.975585] (-) TimerEvent: {}
+[11.078109] (-) TimerEvent: {}
+[11.180488] (-) TimerEvent: {}
+[11.287227] (-) TimerEvent: {}
+[11.388684] (-) TimerEvent: {}
+[11.490151] (-) TimerEvent: {}
+[11.591540] (-) TimerEvent: {}
+[11.692952] (-) TimerEvent: {}
+[11.794655] (-) TimerEvent: {}
+[11.896529] (-) TimerEvent: {}
+[11.997913] (-) TimerEvent: {}
+[12.099473] (-) TimerEvent: {}
+[12.201444] (-) TimerEvent: {}
+[12.302478] (-) TimerEvent: {}
+[12.404508] (-) TimerEvent: {}
+[12.506183] (-) TimerEvent: {}
+[12.607504] (-) TimerEvent: {}
+[12.709103] (-) TimerEvent: {}
+[12.810577] (-) TimerEvent: {}
+[12.912357] (-) TimerEvent: {}
+[13.013714] (-) TimerEvent: {}
+[13.115475] (-) TimerEvent: {}
+[13.216500] (-) TimerEvent: {}
+[13.317646] (-) TimerEvent: {}
+[13.407823] (safety_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/safety_node.dir/build.make:63: CMakeFiles/safety_node.dir/src/safety_node.cpp.o] Error 1\n'}
+[13.409801] (safety_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/safety_node.dir/all] Error 2\n'}
+[13.410815] (safety_node) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[13.416331] (safety_node) CommandEnded: {'returncode': 2}
+[13.418445] (-) TimerEvent: {}
+[13.520541] (-) TimerEvent: {}
+[13.628175] (-) TimerEvent: {}
+[13.677001] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 2}
+[13.680761] (-) EventReactorShutdown: {}

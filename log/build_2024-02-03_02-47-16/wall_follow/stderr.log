@@ -1,0 +1,47 @@
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In constructor ‘[01m[KWallFollow::WallFollow()[m[K’:
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:17:117:[m[K [01;31m[Kerror: [m[K‘[01m[KSafety[m[K’ has not been declared
+   17 |         scan_subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>(lidarscan_topic, 10, std::bind(&[01;31m[KSafety[m[K::scan_callback, this, _1));
+      |                                                                                                                     [01;31m[K^~~~~~[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::get_range(float*, double, double, double, double)[m[K’:
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:69:54:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (float*) / sizeof (float)[m[K’ does not compute the number of array elements [[01;35m[K-Wsizeof-pointer-div[m[K]
+   69 |         if (index >= 0 && index < [01;35m[Ksizeof(range_data) / sizeof(range_data[0])[m[K)
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:48:29:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+   48 |     double get_range([01;36m[Kfloat* range_data[m[K, double angle, double angle_min, double angle_max, double angle_increment)
+      |                      [01;36m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:69:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   69 |         if (index >= 0 && [01;35m[Kindex < sizeof(range_data) / sizeof(range_data[0])[m[K)
+      |                           [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:48:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   48 |     double get_range(float* range_data, double angle, double angle_min, [01;35m[Kdouble angle_max[m[K, double angle_increment)
+      |                                                                         [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::get_error(float*, double, double, double)[m[K’:
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:98:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KWallFollow::get_range(float*&, double, double&, double&)[m[K’
+   98 |         double a = get_range(range_data, angle_min+M_PI/2, angle_max, angle_increment[01;31m[K)[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:48:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble WallFollow::get_range(float*, double, double, double, double)[m[K’
+   48 |     double [01;36m[Kget_range[m[K(float* range_data, double angle, double angle_min, double angle_max, double angle_increment)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:48:12:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 4 provided
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:99:92:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KWallFollow::get_range(float*&, double, double&, double&)[m[K’
+   99 |         double b = get_range(range_data, angle_min+M_PI/2-theta, angle_max, angle_increment[01;31m[K)[m[K;
+      |                                                                                            [01;31m[K^[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:48:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble WallFollow::get_range(float*, double, double, double, double)[m[K’
+   48 |     double [01;36m[Kget_range[m[K(float* range_data, double angle, double angle_min, double angle_max, double angle_increment)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:48:12:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 4 provided
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kvoid WallFollow::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:168:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst _ranges_type[m[K’ {aka ‘[01m[Kconst std::vector<float>[m[K’} to ‘[01m[Kfloat*[m[K’
+  168 |         double error = get_error([01;31m[Kscan_msg->ranges[m[K, scan_msg->angle_min, scan_msg->angle_max, scan_msg->angle_increment)
+      |                                  [01;31m[K~~~~~~~~~~^~~~~~[m[K
+      |                                            [01;31m[K|[m[K
+      |                                            [01;31m[Kconst _ranges_type {aka const std::vector<float>}[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:84:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble WallFollow::get_error(float*, double, double, double)[m[K’
+   84 |     double get_error([01;36m[Kfloat* range_data[m[K, double angle_min, double angle_max, double angle_increment)
+      |                      [01;36m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/sim_ws/src/wall_follow/src/wall_follow_node.cpp:168:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  168 |         double [01;35m[Kerror[m[K = get_error(scan_msg->ranges, scan_msg->angle_min, scan_msg->angle_max, scan_msg->angle_increment)
+      |                [01;35m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/wall_follow_node.dir/build.make:63: CMakeFiles/wall_follow_node.dir/src/wall_follow_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wall_follow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

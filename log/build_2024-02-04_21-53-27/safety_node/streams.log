@@ -1,0 +1,50 @@
+[0.806s] Invoking command in '/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4
+[0.968s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.855s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.049s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.635s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.640s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.837s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[3.838s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.513s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[4.739s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.141s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.431s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.432s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.432s] -- Configured cppcheck include dirs: /sim_ws/src/safety_node/include
+[5.432s] -- Configured cppcheck exclude dirs and/or files: 
+[5.434s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.434s] -- Configured cpplint exclude dirs and/or files: 
+[5.435s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.436s] -- Added test 'lint_cmake' to check CMake code style
+[5.437s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.439s] -- Added test 'uncrustify' to check C / C++ code style
+[5.439s] -- Configured uncrustify additional arguments: 
+[5.440s] -- Added test 'xmllint' to check XML markup files
+[5.454s] -- Configuring done
+[5.510s] -- Generating done
+[5.525s] -- Build files have been written to: /sim_ws/build/safety_node
+[5.789s] [100%] Built target safety_node
+[5.867s] Invoked command in '/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/safety_node -- -j4 -l4
+[6.107s] Invoking command in '/sim_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/safety_node
+[6.139s] -- Install configuration: ""
+[6.140s] -- Up-to-date: /sim_ws/install/safety_node/lib/safety_node/safety_node
+[6.141s] -- Up-to-date: /sim_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[6.142s] -- Up-to-date: /sim_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[6.142s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[6.143s] -- Installing: /sim_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[6.143s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/environment/path.sh
+[6.144s] -- Installing: /sim_ws/install/safety_node/share/safety_node/environment/path.dsv
+[6.145s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.bash
+[6.145s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.sh
+[6.146s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/local_setup.zsh
+[6.146s] -- Installing: /sim_ws/install/safety_node/share/safety_node/local_setup.dsv
+[6.147s] -- Installing: /sim_ws/install/safety_node/share/safety_node/package.dsv
+[6.148s] -- Up-to-date: /sim_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[6.148s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[6.149s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[6.149s] -- Up-to-date: /sim_ws/install/safety_node/share/safety_node/package.xml
+[6.170s] Invoked command in '/sim_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/build/safety_node

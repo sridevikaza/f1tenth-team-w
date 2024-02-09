@@ -1,0 +1,2 @@
+[0.415s] Invoking command in '/sim_ws/build/gap_follow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/build/gap_follow -- -j4 -l4
+[0.681s] [100%] Built target reactive_node
