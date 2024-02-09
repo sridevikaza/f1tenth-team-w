@@ -1,6 +1,3 @@
-[submodule "src/f1tenth_lab2_submodule"]
-	path = src/f1tenth_lab2_submodule
-	url = https://github.com/sridevikaza/f1tenth_lab2
 [submodule "src/f1tenth_lab2_sub"]
 	path = src/f1tenth_lab2_sub
 	url = https://github.com/sridevikaza/f1tenth_lab2
