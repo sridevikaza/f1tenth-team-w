@@ -1,0 +1,9 @@
+[submodule "src/f1tenth_lab2_sub"]
+	path = src/f1tenth_lab2_sub
+	url = https://github.com/sridevikaza/f1tenth_lab2
+[submodule "src/f1tenth_lab3_sub"]
+	path = src/f1tenth_lab3_sub
+	url = https://github.com/sridevikaza/f1tenth_lab3
+[submodule "src/f1tenth_lab4_sub"]
+	path = src/f1tenth_lab4_sub
+	url = https://github.com/sridevikaza/f1tenth_lab4
