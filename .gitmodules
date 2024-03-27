@@ -7,3 +7,18 @@
 [submodule "src/f1tenth_lab4_sub"]
 	path = src/f1tenth_lab4_sub
 	url = https://github.com/sridevikaza/f1tenth_lab4
+[submodule "src/f1tenth_lab5_sub"]
+	path = src/f1tenth_lab5_sub
+	url = https://github.com/sridevikaza/f1tenth_lab5.git
+[submodule "src/range_libc"]
+	path = src/range_libc
+	url = https://github.com/f1tenth/range_libc.git
+[submodule "src/particle_filter"]
+	path = src/particle_filter
+	url = https://github.com/f1tenth/particle_filter.git
+[submodule "src/f1tenth_lab5_alec"]
+	path = src/f1tenth_lab5_alec
+	url = https://github.com/artrela/f1tenth_lab5.git
+[submodule "src/f1tenth_lab6"]
+	path = src/f1tenth_lab6
+	url = https://github.com/f1tenth-cmu/f1tenth_lab6.git
